@@ -1,0 +1,9 @@
+[package]
+name = "frontier-start"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+substrate-wasm-builder = { git = "https://github.com/purestake/substrate", branch = "moonbeam-polkadot-v0.9.32" }
